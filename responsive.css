@@ -1,0 +1,236 @@
+@media screen and (max-width: 915px) {
+
+    .green-window {
+        flex-direction: column;
+        max-width: 371px;
+        justify-content: center;
+        align-items: center;
+        
+height: 688px;
+top: 9693px;
+left: 20px;
+border-radius: 32px;
+margin: auto;
+        h2 {
+            width: 328px;
+            text-align: center;
+            margin-bottom: 50px;
+
+        }
+        button {
+           margin-left: 90px;
+           margin-bottom: 30px;
+        }
+       
+    }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav-bar-wrapper > .nav-bar-buttons-container {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-bar-buttons-container > .nav-links-container > a {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .nav-bar-buttons-container > .nav-links-container > a:hover {
+    text-decoration: underline;
+  }
+
+  .nav-bar-buttons-container > .actions-buttons-wrapper {
+    padding: 10px 0;
+    flex-direction: column;
+  }
+
+  .nav-bar-buttons-container > .actions-buttons-wrapper > button {
+    margin: 5px 0;
+  }
+
+  .nav
+    > #menu-collapse:not(:checked)
+    ~ .nav-bar-wrapper
+    > .nav-bar-buttons-container {
+    height: 0;
+  }
+
+  .nav
+    > #menu-collapse:checked
+    ~ .nav-bar-wrapper
+    > .nav-bar-buttons-container {
+    max-height: 100vh;
+    height: auto;
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+    .footer-container {
+        flex-direction: column;
+       
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+  .section-row-4-cols {
+    grid-template-areas:
+      "grid-col-1 grid-col-2"
+      "grid-col-3 grid-col-4";
+    gap: 30px;
+  }
+
+  .section-row-4-cols div {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chat-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  /* .chat-box-container > .content-left-col {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .cell-container {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .price-table {
+    margin: 0;
+  }
+
+  .content-strategies {
+    margin-bottom: 0;
+  }
+
+  .what-client-say > .reviews-container {
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .section-2-col {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .section-2-col-item {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-3-row > button {
+    margin-top: 37px;
+  }
+
+  .section-row-4-cols {
+    grid-template-areas:
+      "grid-col-1"
+      "grid-col-2"
+      "grid-col-3"
+      "grid-col-4";
+    gap: 43px;
+  }
+
+  .section-row-4-cols div {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-row-4-cols > div > p {
+    max-width: 240px;
+    text-align: center;
+  }
+
+  .section-management {
+    text-align: start;
+    align-items: start;
+  }
+
+  .section-management :nth-child(1) {
+    margin-top: 50px;
+  }
+
+  .section-management > p {
+    max-width: 349px;
+  }
+
+  .section-non-reverse {
+    flex-direction: column;
+  }
+
+  .column-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .chat-box-container {
+    margin: 0;
+  }
+
+  .content-strategies-container {
+    flex-direction: column;
+  }
+ 
+  .content-strategies h2 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .dot {
+    display: none;
+  }
+
+  .what-client-say {
+    margin-top: 99.56px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 390px) {
+    body {
+        margin-left: 70px;
+        width: 100%;
+    }
+
+    .chat-box-left, .chat-box-right, .second-chat-box-left, .second-chat-box-right {
+       
+       background-size: 200px 120px;
+    }
+}
+
